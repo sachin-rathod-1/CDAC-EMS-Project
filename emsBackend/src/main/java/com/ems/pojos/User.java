@@ -61,7 +61,7 @@ public class User extends BaseEntity {
 	@Size(min = 12,max = 12)
 	private String adharNumber;
 	
-	@Column(length = 50,unique = true)
+	@Column(length = 25,unique = true)
 	@Email
 	@NotEmpty(message = "email cannot be null")
 	private String email;

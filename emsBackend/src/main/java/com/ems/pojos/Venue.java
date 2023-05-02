@@ -57,6 +57,19 @@ public class Venue extends BaseEntity{
 	@Column
 	@Positive
 	private double cost;
+
+	
+//	public int getVenue_id() {
+//		return venue_id;
+//	}
+//
+//	public void setVenue_id(int venue_id) {
+//		this.venue_id = venue_id;
+//	}
+
+	
+	
+	
 	
 	public String getName() {
 		return name;
